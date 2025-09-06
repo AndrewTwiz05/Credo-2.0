@@ -1,0 +1,17 @@
+{
+  "name": "credo-server",
+  "version": "2.0.0",
+  "description": "Backend server for the Credo browser extension.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Anand Tiwari",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "@google/generative-ai": "^0.12.0"
+  }
+}

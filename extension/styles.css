@@ -1,0 +1,145 @@
+#credo-modal {
+    position: fixed;
+    z-index: 99999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+.credo-modal-content {
+    background-color: #fefefe;
+    border-radius: 12px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.25);
+    width: 90%;
+    max-width: 550px;
+    animation: slide-down 0.4s ease-out;
+}
+
+.credo-modal-header {
+    padding: 15px 20px;
+    border-bottom: 1px solid #e0e0e0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.credo-modal-header h2 {
+    margin: 0;
+    font-size: 20px;
+    color: #333;
+}
+
+#credo-close-btn {
+    background: none;
+    border: none;
+    font-size: 28px;
+    cursor: pointer;
+    color: #888;
+    padding: 0 5px;
+}
+#credo-close-btn:hover {
+    color: #333;
+}
+
+.credo-modal-body {
+    padding: 20px;
+    max-height: 70vh;
+    overflow-y: auto;
+}
+
+.credo-section {
+    margin-bottom: 20px;
+}
+.credo-section:last-child {
+    margin-bottom: 0;
+}
+
+.credo-section h3 {
+    font-size: 16px;
+    color: #3498db;
+    margin-top: 0;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #ecf0f1;
+    padding-bottom: 5px;
+}
+
+.credo-section p {
+    font-size: 15px;
+    line-height: 1.6;
+    color: #555;
+    margin: 0;
+}
+
+.credo-score-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.credo-score-circle {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 6px solid #e74c3c;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.credo-score-circle span {
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+}
+
+.credo-score-text p {
+    font-style: italic;
+}
+
+.credo-flags-list {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+.credo-flags-list li {
+    background-color: #ecf0f1;
+    padding: 8px 12px;
+    border-radius: 6px;
+    margin-bottom: 8px;
+    font-size: 14px;
+}
+
+.credo-loader {
+    border: 6px solid #f3f3f3;
+    border-top: 6px solid #3498db;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 1s linear infinite;
+    margin: 20px auto;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+@keyframes slide-down {
+    from {
+        transform: translateY(-50px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
