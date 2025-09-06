@@ -36,7 +36,7 @@ A modern web browser that supports extensions (e.g., Google Chrome).
 A Google AI API Key.
 
 1. Clone the Repository
-git clone [https://github.com/your-username/credo-project.git](https://github.com/your-username/credo-project.git)
+git clone [https://github.com/AndrewTwiz05/credo-project.git](https://github.com/AndrewTwiz05/credo-mil-hackathon)
 cd credo-project
 
 2. Set Up the Backend Server
@@ -88,5 +88,6 @@ This project was built for the UNESCO Global Media and Information Literacy Week
 Theme: Youth Leading the Way - Building MIL Solutions for Impact
 
 Challenge Track(s): AI and MIL, MIL Education, Community Impact
+
 
 Credo directly addresses the challenge of misinformation by providing a practical, educational tool that empowers youth to become more discerning consumers of online information.
