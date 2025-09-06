@@ -3,20 +3,21 @@ Credo is an AI-powered browser extension that acts as a personal media literacy 
 
 Credo analyzes online articles with a single click, providing an instant credibility report, a neutral summary, and a breakdown of potential manipulative language. It empowers users, especially young people, to think critically and navigate the digital world with confidence.
 
-(You can replace this with a real GIF of your working extension)
+![Credo 2 0](https://github.com/user-attachments/assets/c6b4a587-4fb2-458b-a74f-429143b3e134)
+
 
 🚀 Features
-One-Click Analysis: Simple and intuitive UI requires no prior experience.
+1. One-Click Analysis: Simple and intuitive UI requires no prior experience.
 
-AI Credibility Score: Provides a quick 1-10 measure of an article's trustworthiness.
+2. AI Credibility Score: Provides a quick 1-10 measure of an article's trustworthiness.
 
-Neutral Summarization: Instantly grasps the core message of any article.
+3. Neutral Summarization: Instantly grasps the core message of any article.
 
-Potential Flag Detection: Automatically identifies red flags like emotional language, generalizations, and lack of sources.
+4. Potential Flag Detection: Automatically identifies red flags like emotional language, generalizations, and lack of sources.
 
-Alternative Perspectives: Uses AI to find and suggest related articles from different credible sources to combat filter bubbles.
+5. Alternative Perspectives: Uses AI to find and suggest related articles from different credible sources to combat filter bubbles.
 
-Seamless Integration: Works as a lightweight browser extension, integrating directly into a user's browsing habits.
+6. Seamless Integration: Works as a lightweight browser extension, integrating directly into a user's browsing habits.
 
 🛠️ Technology Stack
 Frontend (Extension): Vanilla JavaScript, HTML5, CSS3
@@ -91,3 +92,4 @@ Challenge Track(s): AI and MIL, MIL Education, Community Impact
 
 
 Credo directly addresses the challenge of misinformation by providing a practical, educational tool that empowers youth to become more discerning consumers of online information.
+
